@@ -5,7 +5,7 @@
 
   <groupId>io.github.espresso4j</groupId>
   <artifactId>jettino</artifactId>
-  <version>0.1.1-SNAPSHOT</version>
+  <version>0.1.1</version>
 
   <name>jettino</name>
   <url>https://github.com/espresso4j/jettino</url>
@@ -29,7 +29,7 @@
     <url>https://github.com/espresso4j/jettino</url>
     <connection>scm:git:git@github.com:espresso4j/jettino.git</connection>
     <developerConnection>scm:git:git@github.com:espresso4j/jettino.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>jettino-0.1.1</tag>
   </scm>
 
   <properties>
