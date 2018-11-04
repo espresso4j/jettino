@@ -43,13 +43,13 @@
     <dependency>
       <groupId>io.github.espresso4j</groupId>
       <artifactId>espresso</artifactId>
-      <version>0.2.0</version>
+      <version>0.3.1</version>
     </dependency>
 
     <dependency>
       <groupId>io.github.espresso4j</groupId>
       <artifactId>servleto</artifactId>
-      <version>0.1.0</version>
+      <version>0.1.1</version>
     </dependency>
 
     <dependency>
