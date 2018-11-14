@@ -10,7 +10,7 @@ import java.net.InetSocketAddress;
 /**
  *
  */
-public class JettinoAdapter implements Adapter {
+public class Jettino implements Adapter {
 
     private Server server;
 
@@ -18,15 +18,15 @@ public class JettinoAdapter implements Adapter {
 
     private BaseAdapterOptions baseAdapterOptions;
 
-    public JettinoAdapter() {
+    public Jettino() {
         this.baseAdapterOptions = BaseAdapterOptions.Builder.byDefault();
     }
 
-    public JettinoAdapter(BaseAdapterOptions baseAdapterOptions) {
+    public Jettino(BaseAdapterOptions baseAdapterOptions) {
         this.baseAdapterOptions = baseAdapterOptions;
     }
 
-    public JettinoAdapter(ServerCustomizer serverCustomizer, BaseAdapterOptions baseAdapterOptions) {
+    public Jettino(ServerCustomizer serverCustomizer, BaseAdapterOptions baseAdapterOptions) {
         this(baseAdapterOptions);
         this.serverCustomizer = serverCustomizer;
     }

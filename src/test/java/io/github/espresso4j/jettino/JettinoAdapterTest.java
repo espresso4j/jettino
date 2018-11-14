@@ -11,7 +11,7 @@ public class JettinoAdapterTest {
         options.setJoin(false);
         options.setPort(32080);
 
-        JettinoAdapter jetty = new JettinoAdapter(options);
+        Jettino jetty = new Jettino(options);
 
         jetty.start((req) -> Response.of(200));
         jetty.stop();
