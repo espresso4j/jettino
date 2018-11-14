@@ -7,6 +7,16 @@
 
 Espresso server based on [Jetty](https://www.eclipse.org/jetty).
 
+## Usage
+
+```java
+import io.github.espresso4j.jettino.Jettino;
+import io.github.espresso4j.espresso.*;
+
+var jetty = new Jettino();
+jetty.start(req -> Response.of(200).body("It works"));
+```
+
 ## License
 
 See [license](https://github.com/espresso4j/jettino/blob/master/LICENSE)
